@@ -1,0 +1,34 @@
+{
+  "name": "pdfannotation",
+  "version": "1.0.0",
+  "description": "PDF Annotation",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.ts",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "annotpdf": "^1.0.15",
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22",
+    "path": "^0.12.7",
+    "pdf-lib": "^1.17.1",
+    "pg": "^8.11.0",
+    "ts-node": "^10.9.1",
+    "typeorm": "^0.3.16",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.17",
+    "@types/morgan": "^1.9.4"
+  }
+}
